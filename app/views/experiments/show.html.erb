@@ -1,0 +1,6 @@
+<h1><%= @experiment.name %></h1>
+
+<pre><%= @experiment.data %></pre>
+<p><%= link_to "Download file", @experiment.file.url %></p>
+
+<%= link_to "Back", root_path %>
